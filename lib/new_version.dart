@@ -250,6 +250,7 @@ class NewVersion {
       final data =  parsed['data'];
 
       storeVersion = data[1][2][140][0][0][0];
+      print("===========${data}");
       releaseNotes = data[1][2][144][1][1];
     }
 
